@@ -6,7 +6,7 @@ import org.apache.spark.sql.SparkSession
 import org.jblas.DoubleMatrix
 
 
-// 基于评分数据的LFM，只需要rating数据
+// 基于评分数据的LFM
 case class MovieRating(uid: Int, mid: Int, score: Double, timestamp: Int )
 
 case class MongoConfig(uri:String, db:String)
