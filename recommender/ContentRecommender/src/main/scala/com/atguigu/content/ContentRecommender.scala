@@ -7,7 +7,6 @@ import org.apache.spark.sql.SparkSession
 import org.jblas.DoubleMatrix
 
 
-// 需要的数据源是电影内容信息
 case class Movie(mid: Int, name: String, descri: String, timelong: String, issue: String,
                  shoot: String, language: String, genres: String, actors: String, directors: String)
 
